@@ -1,0 +1,24 @@
+# Librerie per le esercitazioni NIDS ML-based.
+# Su Colab quasi tutte sono già installate: la cella di setup aggiunge solo quelle che mancano.
+# In locale: pip install -r requirements.txt
+
+# Dati
+numpy>=1.26
+pandas>=2.2
+pyarrow>=15.0
+
+# Machine learning
+scikit-learn>=1.5
+imbalanced-learn>=0.12
+river>=0.21
+shap>=0.45
+
+# Grafici e interattività
+matplotlib>=3.8
+ipywidgets>=8.0
+
+# Controlli di sistema (RAM disponibile)
+psutil>=5.9
+
+# Solo in locale, per eseguire i notebook in VS Code o Jupyter
+ipykernel>=6.29
