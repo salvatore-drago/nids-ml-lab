@@ -1,0 +1,34 @@
+# --- Dati grezzi e file pesanti ---
+data/raw/*
+!data/raw/.gitkeep
+*.csv
+*.pcap
+*.pcapng
+*.zip
+*.7z
+
+# --- Modelli salvati ---
+*.pkl
+*.joblib
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv*/
+.env
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Editor e sistema ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Output temporanei ---
+*.pdf
+!figures/*.pdf

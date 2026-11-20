@@ -1,0 +1,12 @@
+# Normalizza i fine riga: LF nel repository, quello nativo nella copia locale
+* text=auto
+
+# Notebook e script sempre LF, per non avere differenze fantasma tra sistemi
+*.ipynb text eol=lf
+*.py    text eol=lf
+*.md    text eol=lf
+
+# File binari: mai toccarli
+*.parquet binary
+*.png     binary
+*.pdf     binary
