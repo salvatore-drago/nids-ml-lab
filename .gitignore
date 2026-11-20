@@ -35,3 +35,6 @@ desktop.ini
 
 # --- Materiale di lavoro locale ---
 notebooks/Es09_prove.ipynb
+
+# --- Includi ---
+!data/processed/class_counts*.csv

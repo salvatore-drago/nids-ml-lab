@@ -1,0 +1,15 @@
+label,originale,flussi_1_pacchetto,durata_negativa,static,stream,pct_1_pacchetto,famiglia
+Benign,3572478,801288,22,250073,125037,22.4,Benign
+DoS_Hulk,349240,127983,0,24447,12223,36.6,DoS
+Port_Scan,161323,2178,0,11293,5646,1.4,PortScan
+DDoS_LOIT,95733,49,0,6701,3351,0.1,DDoS
+FTP-Patator,9531,3084,0,667,334,32.4,BruteForce
+DoS_GoldenEye,8364,521,0,585,293,6.2,DoS
+DoS_Slowhttptest,6860,1782,0,480,240,26.0,DoS
+SSH-Patator,5949,2937,0,416,208,49.4,BruteForce
+Botnet_ARES,5508,705,0,386,193,12.8,Botnet
+DoS_Slowloris,5177,1016,0,362,181,19.6,DoS
+Web_Brute_Force,2734,1366,0,191,96,50.0,WebAttack
+Web_XSS,1358,679,0,95,48,50.0,WebAttack
+Web_SQL_Injection,24,11,0,24,24,45.8,WebAttack
+Heartbleed,12,4,0,12,12,33.3,Heartbleed
