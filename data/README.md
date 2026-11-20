@@ -9,8 +9,8 @@ agli indirizzi IP degli attaccanti invece che agli orari.
 
 - M. Shafi, A. H. Lashkari, A. H. Roudsari. *NTLFlowLyzer: Toward generating an
   intrusion detection dataset and intruders behavior profiling through network
-  layer traffic analysis and pattern extraction*. Computers & Security, 2024,
-  104160.
+  and transport layers traffic analysis and pattern extraction*. Computers &
+  Security 148 (2025), 104160. https://doi.org/10.1016/j.cose.2024.104160
 - I. Sharafaldin, A. H. Lashkari, A. A. Ghorbani. *Toward Generating a New
   Intrusion Detection Dataset and Intrusion Traffic Characterization*. ICISSP 2018.
   (Il dataset CIC-IDS2017 originale.)
@@ -59,7 +59,7 @@ I numeri decimali sono in `float32` e gli interi in `int32`, per ridurre la memo
 | Friday | DDoS_LOIT | DDoS |
 | Friday | Botnet_ARES | Botnet |
 
-Il lunedì contiene solo traffico benigno.
+Il lunedì contiene solo traffico benigno. 
 
 I conteggi esatti sono in `class_counts.csv`.
 
