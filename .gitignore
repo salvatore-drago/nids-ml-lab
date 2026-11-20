@@ -32,3 +32,6 @@ desktop.ini
 # --- Output temporanei ---
 *.pdf
 !figures/*.pdf
+
+# --- Materiale di lavoro locale ---
+notebooks/Es09_prove.ipynb
