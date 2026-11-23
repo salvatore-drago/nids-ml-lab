@@ -18,6 +18,7 @@ _LAZY = {
     "save_figure": "plots", "set_style": "plots", "fmt_int": "plots",
     "CATEGORICAL": "plots", "BENIGN_COLOR": "plots", "ATTACK_COLOR": "plots",
     "INK": "plots", "INK_SECONDARY": "plots",
+    "challenge_score": "challenge", "MAX_FALSE_ALARMS": "challenge",
 }
 
 __all__ = ["check_environment", "ensure_packages", "in_colab",
