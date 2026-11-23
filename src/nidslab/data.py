@@ -40,3 +40,22 @@ def feature_columns(df: pd.DataFrame) -> list[str]:
     colonne categoriche ed etichette."""
     excluded = set(ID_COLS) | set(CATEGORICAL_COLS) | set(LABEL_COLS)
     return [c for c in df.columns if c not in excluded and pd.api.types.is_numeric_dtype(df[c])]
+
+
+def prepare_static(remove_single_packet: bool = False) -> tuple[pd.DataFrame, list[str]]:
+    """Il campione della Lezione 1 con le scelte di pulizia del notebook 01a.
+
+    - feature: solo le colonne numeriche di traffico, senza le colonne costanti;
+    - righe: senza duplicati esatti (stesse feature e stessa etichetta);
+    - flussi di un solo pacchetto: tenuti, salvo remove_single_packet=True.
+
+    Restituisce il DataFrame pulito e la lista delle feature.
+    """
+    df = load_static()
+    features = feature_columns(df)
+    nunique = df[features].nunique()
+    features = [c for c in features if nunique[c] > 1]
+    keep = ~df.duplicated(subset=features + ["label"])
+    if remove_single_packet:
+        keep &= df["packets_count"] != 1
+    return df[keep].reset_index(drop=True), features
