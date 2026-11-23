@@ -10,3 +10,6 @@
 *.parquet binary
 *.png     binary
 *.pdf     binary
+*.ipynb filter=nbstripout
+*.zpln filter=nbstripout
+*.ipynb diff=ipynb

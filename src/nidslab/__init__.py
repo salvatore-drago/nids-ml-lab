@@ -14,7 +14,8 @@ _LAZY = {
     "CATEGORICAL_COLS": "data", "DAYS": "data", "ID_COLS": "data", "LABEL_COLS": "data",
     "feature_columns": "data", "load_class_counts": "data",
     "load_static": "data", "load_stream": "data",
-    "plot_confusion_matrix": "plots", "save_figure": "plots", "set_style": "plots",
+    "plot_confusion_matrix": "plots", "plot_decision_regions": "plots", "set_log1p_ticks": "plots",
+    "save_figure": "plots", "set_style": "plots", "fmt_int": "plots",
     "CATEGORICAL": "plots", "BENIGN_COLOR": "plots", "ATTACK_COLOR": "plots",
     "INK": "plots", "INK_SECONDARY": "plots",
 }
