@@ -1,9 +1,8 @@
 # Dati
+**BCCC-CIC-IDS2017** è una nuova estrazione dei flussi di rete
+del dataset CIC-IDS2017 ottenuta con lo strumento NTLFlowLyzer. 
 
-Le esercitazioni usano **BCCC-CIC-IDS2017**, una nuova estrazione dei flussi di rete
-del dataset CIC-IDS2017 ottenuta con lo strumento NTLFlowLyzer. Rispetto alla
-versione originale, le etichette degli attacchi DoS sono state riallineate in base
-agli indirizzi IP degli attaccanti invece che agli orari.
+Le esercitazioni usano una versione sottocampionata e modificata di questo dataset pensata per scopi didattici.
 
 ## Riferimenti
 
