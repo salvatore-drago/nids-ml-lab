@@ -15,7 +15,6 @@ Le esercitazioni usano una versione sottocampionata e modificata di questo datas
   (Il dataset CIC-IDS2017 originale.)
 - Pagina del dataset: https://www.yorku.ca/research/bccc/ucs-technical/cybersecurity-datasets-cds/intrusion-detection-dataset-bccc-cic-ids2017
 
-<!-- TODO: licenza e condizioni di ridistribuzione da verificare prima di rendere pubblico il repository -->
 
 ## Cosa c'è in `processed/`
 
